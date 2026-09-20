@@ -49,12 +49,12 @@ npx serve .
   "rows": [
     {
       "index": 1,
-      "title": "Party Girl",
-      "singer": "R3HAB",
-      "album": "Party Girl",
+      "title": "Midnight Circuit",
+      "singer": "Demo Artist A",
+      "album": "Open Source Demos",
       "year": 2020,
-      "duration": "02:27",
-      "mid": "00336iYC1ukevA",
+      "duration": "03:15",
+      "mid": "DEMO00000001",
       "quality": "FLAC 无损",
       "lossless": "有无损",
       "hires": "否",
