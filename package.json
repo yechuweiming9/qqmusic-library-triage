@@ -1,0 +1,20 @@
+{
+  "name": "qqmusic-library-triage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline music library triage tool for search, quality filtering, duplicate review, and local decisions.",
+  "scripts": {
+    "start": "npx serve .",
+    "check": "node --check index.html"
+  },
+  "keywords": [
+    "music",
+    "playlist",
+    "qqmusic",
+    "offline",
+    "library",
+    "triage",
+    "flac"
+  ],
+  "license": "MIT"
+}

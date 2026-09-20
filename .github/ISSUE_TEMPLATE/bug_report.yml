@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a problem with the offline triage tool
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the visible problem and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open index.html
+        2. Import a JSON or CSV file
+        3. Apply a filter
+        4. See the problem
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 140, Edge 140, Firefox 142
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Minimal sample data
+      description: Remove private song data before posting.
+      render: json
+    validations:
+      required: false
